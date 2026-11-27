@@ -3,10 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Wed của tôi</title>
+<title>Sentinel</title>
+<style>
+  body { margin:0; background:#121212; color:#e6e6e6; font-family:Roboto,sans-serif; }
+  header { background:#1e1e1e; padding:16px; font-size:20px; font-weight:500; color:#8ec5ff; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { padding:12px 16px; text-align:left; border-bottom:1px solid #2a2a2a; font-size:14px; }
+  th { color:#8ec5ff; font-weight:500; }
+  .ok { color:#7ddc7d; }
+  .mono { font-family:monospace; color:#bbb; }
+</style>
 </head>
 <body>
-<h1>Xin chào, đây là web của tôi</h1>
-<p>Sửa file này để thay đổi nội dung.</p>
+<header>Sentinel 0.3</header>
+<table>
+  <tr><th>Mục</th><th>Giá trị</th><th>Trạng thái</th></tr>
+  <tr><td>swappiness</td><td class="mono">20</td><td class="ok">Đã áp dụng</td></tr>
+  <tr><td>vfs_cache_pressure</td><td class="mono">50</td><td class="ok">Đã áp dụng</td></tr>
+  <tr><td>tcp_fastopen</td><td class="mono">3</td><td class="ok">Đã áp dụng</td></tr>
+  <tr><td>iosched sda</td><td class="mono">noop</td><td class="ok">Đã áp dụng</td></tr>
+  <tr><td>renderer</td><td class="mono">skiaglthreaded</td><td class="ok">Đã áp dụng</td></tr>
+  <tr><td>auto_sync</td><td class="mono">0</td><td class="ok">Đã áp dụng</td></tr>
+  <tr><td>captive_portal_mode</td><td class="mono">0</td><td class="ok">Đã áp dụng</td></tr>
+  <tr><td>max_cached_processes</td><td class="mono">16</td><td class="ok">Đã áp dụng</td></tr>
+</table>
 </body>
 </html>
